@@ -1,0 +1,28 @@
+{
+  "name": "kabum-ts-logger",
+  "description": "A simple logging library",
+  "keywords": [
+    "bun",
+    "ts",
+    "logging"
+  ],
+  "version": "1.0.0",
+  "files": [
+    "dist/*"
+  ],
+  "author": "Nicolas Broca <n.broca@gmail.com>",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun run build.mjs"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
