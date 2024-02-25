@@ -6,10 +6,11 @@
     "ts",
     "logging"
   ],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "files": [
     "dist/*"
   ],
+  "main": "dist/index.js",
   "author": "Nicolas Broca <n.broca@gmail.com>",
   "module": "index.ts",
   "type": "module",
